@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_maple"
+    >
+    <ImageView android:id="@+id/title"
+	android:background="@drawable/title"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_alignParentRight="true" 
+	android:layout_marginRight="5dip"
+	android:layout_marginTop="20dip"
+	/>
+    
+	<ImageView android:id="@+id/new_game"
+	android:background="@drawable/new_game"
+	android:layout_width="wrap_content"
+	android:layout_height="60dip"
+	android:layout_alignParentRight="true" 
+	android:layout_marginRight="5dip"
+	android:layout_below="@id/title"
+	android:layout_marginTop="20dip"
+	/>
+	
+	<ImageView android:id="@+id/options"
+	android:background="@drawable/options"
+	android:layout_width="wrap_content"
+	android:layout_height="60dip"
+	android:layout_alignParentRight="true" 
+	android:layout_marginRight="5dip"
+	android:layout_below="@id/new_game"
+	/>
+	
+	<ImageView android:id="@+id/help"
+	android:background="@drawable/help"
+	android:layout_width="wrap_content"
+	android:layout_height="60dip"
+	android:layout_alignParentRight="true" 
+	android:layout_marginRight="5dip"
+	android:layout_below="@id/options"
+	/>
+	
+	<ImageView android:id="@+id/quit"
+	android:background="@drawable/quit"
+	android:layout_width="wrap_content"
+	android:layout_height="60dip"
+	android:layout_alignParentRight="true" 
+	android:layout_marginRight="5dip"
+	android:layout_below="@id/help"
+	/>
+    
+</RelativeLayout>

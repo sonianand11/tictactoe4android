@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+android:id="@+id/LinearLayout01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+>
+<TextView
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:textSize="20dip"
+android:scrollbars="vertical"
+android:text=" GAME  \n The aim of the game is to get,\n horizontal, vertical or the\n diagonal cells marked with the\n same symbol.\n\n
+OPTIONS \n To access options, during\n game, press the MENU button\n of your phone.\n\n
+Application Developed By:\n Rahul and Shilpa\n User Interface Design: Giri\n" />
+	
+</RelativeLayout>
+
