@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:soundEffectsEnabled="true">
+	<Button android:id="@+id/startbutton"
+    	android:layout_width="300dip" 
+		android:layout_height="60dip"
+		android:layout_marginTop="170dip"
+		android:layout_marginLeft="10dip"
+		android:layout_marginRight="10dip"
+    	android:text="Start Game !" />	
+</LinearLayout>
